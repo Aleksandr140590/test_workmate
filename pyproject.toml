@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "test-workmate"
+version = "0.1.0"
+description = ""
+authors = ["Alexandr Fedorovich <alex2717@yandex.kz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "4.2.7"
+djoser = "^2.2.0"
+psycopg2-binary = "^2.9.6"
+python-environ = "^0.4.54"
+taskipy = "^1.13.0"
+gunicorn = "^23.0.0"
+pre-commit = "^3.8.0"
+drf-spectacular = "^0.27.2"
+flake8 = "^7.1.1"
+black = "^24.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
