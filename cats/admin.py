@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from cats.models import Cat, Breed
+from cats.models import Cat, Breed, CatRating
 
 
 @admin.register(Cat)
@@ -45,3 +45,10 @@ class BreedAdmin(admin.ModelAdmin):
     """Админка для модели Breed"""
 
     list_display = ("id", "name")
+
+
+@admin.register(CatRating)
+class CatRatingAdmin(admin.ModelAdmin):
+    """Админка для модели Breed"""
+
+    list_display = ("user", "cat", "value")

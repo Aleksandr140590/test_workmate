@@ -19,6 +19,7 @@ USERS_API_SCHEMA_EXTENSIONS = {
 }
 
 CATS_API_SCHEMA_EXTENSIONS = {
+    "rating": extend_schema(tags=["Кошки"], summary="Поставить рейтинг кошке"),
     "list": extend_schema(
         tags=["Кошки"],
         summary="Получить список кошек",
