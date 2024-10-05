@@ -33,7 +33,7 @@
     docker compose up -d
     ```
 * Тестовые данные будут загружены автоматически
-    ```
+
 * Swagger:
   ```
   http://localhost/api/v1/schema/
