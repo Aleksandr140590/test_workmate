@@ -26,7 +26,7 @@
   DJANGO_SUPERUSER_EMAIL= Email для суперюзера
   DJANGO_SUPERUSER_NAME= Имя для суперюзера
   DJANGO_SUPERUSER_SURNAME= Фамилия для суперюзера
-  DEBUG_STATUS= True or False для щапуска в режиме DEBUG
+  DEBUG_STATUS= True or False для запуска в режиме DEBUG
     ```
 * Запуск сервера из каталога infra/:
     ```sh
